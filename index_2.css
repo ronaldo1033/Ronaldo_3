@@ -11,7 +11,7 @@ body{
 .contenedor{
 
     width: 100%;
-    height: 68em;
+    height: 90em;
     margin: auto;
     background: linear-gradient(to bottom, 
     #792f86 0%,  /* Color en la parte superior (0%) */
@@ -22,8 +22,7 @@ body{
 
 }
 .uno{
-    
-    height: 19.5%;
+    height: 19%;
 }
 #unoimg{
     width: 37%;
@@ -32,10 +31,9 @@ body{
 }
 
 .dos{
-
-    height: 58%;
-    margin-left: 3em;
-    margin-right: 3em;
+    height: 56%;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
     background: white;
     
 }
@@ -45,10 +43,10 @@ body{
 }
 
 .dosunotext{
-    font-size: 37px;
+    font-size: 45px;
     color: #732383;
     font-family: AsimovProBd;
-    margin-top: 0.9em;
+    margin-top: 1.5em;
 }
 
 
@@ -66,12 +64,13 @@ body{
 }
 .unoimg2{
     width: 100%;
-
+    position: relative;
+    top: -18px;
 }
 .dosdostext{
     font-family: roboto;
     color: #742284;
-    font-size: 85px;
+    font-size: 120px;
     margin-top: 0.4em;
     margin-right: 0.15em;
 }
@@ -82,14 +81,14 @@ body{
     
 }
 .dostrestext{
-    font-size: 30px;
+    font-size: 38px;
     font-family: Asimov Print D font;
     font-weight: 500;
     color: #202e41;
     margin-top: 1.5em;
 }
 #fechaYHora{
-    font-size: 21px;
+    font-size: 26px;
     font-family: AsimovProBd;
     color: #69696f;
     margin-top: 0.5em;
@@ -110,12 +109,12 @@ body{
     display: inline;
     font-family: AsimovProBd;
     color: #97979c;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .doscuatrotext2{
     display: inline;
-    font-size: 20px;
+    font-size: 26px;
     
 }
 
@@ -129,12 +128,12 @@ body{
 .doscinco > p{
     display: inline;
     font-family: AsimovProBd;
-    font-size: 20px;
+    font-size: 26px;
 }
 .doscincotext{
     font-family: AsimovProBd;
     color: #97979c;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 
@@ -150,7 +149,7 @@ body{
 }
 .dosseis > p{
     display: inline;
-    font-size: 20px;
+    font-size: 26px;
     font-family: AsimovProBd;
 }
 .dosseistext{
@@ -167,12 +166,13 @@ body{
 }
 .dossieteimg{
     width: 100%;
-    margin-top: 2em;
+    margin-top: 3.3em;
 }
 
 
 .tres{
     height: 22.7%;
+    margin-bottom: 1em ;
 }
 .tresuno{
 
@@ -183,9 +183,10 @@ body{
     height: 37%;
 }
 .tresunoimg{
-    width: 67%;
+    width: 74%;
     height: 100%;
-    margin-top: 2.5em;
+    position: relative;
+    top: 20px;
 }
 .tresdos > p{
     display: inline;
@@ -194,26 +195,26 @@ body{
     font-family: AsimovProBd;
     color: white;
     position: relative;
-    bottom: 7px;
-    right: 40px;
-    font-size: 19px;
+    bottom: 25px;
+    right: 60px;
+    font-size: 25px;
 }
 .tresdosdos{
     font-family: AsimovProBd;
     color: white;
     position: relative;
     left: 6px;
-    bottom: 7px;
+    bottom: 25px;
 
-    font-size: 19px;
+    font-size: 25px;
 }
 .tresdostres{
     font-family: AsimovProBd;
     color: white;
     position: relative;
-    bottom: 7px;
-    left: 40px;
-    font-size: 19px;
+    bottom: 25px;
+    left: 60px;
+    font-size: 25px;
 }
 
 
@@ -231,17 +232,11 @@ html{
     color: white;
     display: inline;
 }
-#nombreMostrado{
-    white-space: nowrap;
+.cuatro{
+    height: 10%;
+    margin-top: 3em;
 }
-#nombreMostrado::after {
-    content: "\A"; /* Agrega un salto de línea después de las tres primeras palabras */
-    white-space: normal;
-}
-.dostrestext{
-    white-space: nowrap;
-}
-.dostrestext::after {
-    content: "\A"; /* Agrega un salto de línea después de las tres primeras palabras */
-    white-space: normal;
+.cuatro img{
+    
+    width: 82%;
 }
